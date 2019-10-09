@@ -1,7 +1,8 @@
-Breakpoint 1 at 0xea: file source/main.c, line 22.
+Breakpoint 1 at 0xee: file source/main.c, line 24.
 Note: automatically using hardware breakpoints for read-only addresses.
 ======================================================
 Running all tests..."
 
-“PINA:...“PINA:...“PINA:...======================================================
+“PINA:...“PINA:...“PINA:...“PINA:...“PINA:...test/tests.gdb:60: Error in sourced command file:
+Ambiguous command "Add tests below": .
 Quitting: Remote doesn't know how to detach
