@@ -1,7 +1,7 @@
-/*	Author: dpere048
+/*	Author: David Perez dpere048@ucr.edu
  *  Partner(s) Name: 
- *	Lab Section:
- *	Assignment: Lab #  Exercise #
+ *	Lab Section: 022
+ *	Assignment: Lab2 #  Exercise #2c
  *	Exercise Description: [optional - include for your own benefit]
  *
  *	I acknowledge all content contained herein, excluding template or example
@@ -36,7 +36,7 @@ int main(void) {
 	} else if(tmpA == 0x0E || tmpA == 0x00 || tmpA == 0x00 || tmpA == 0x00 ){
 			cntavail = 1;
 	} else if(tmpA == 0x0F){
-			cntavail = 0;
+			cntavail = 128 ;// portc7 =1 if full
 	} else{
 		cntavail = 4;
 }
