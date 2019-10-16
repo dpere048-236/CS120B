@@ -3,9 +3,6 @@ Note: automatically using hardware breakpoints for read-only addresses.
 ======================================================
 Running all tests..."
 
-“PINA:...“PINA:...“PINA:...“PINA:...“PINA:...
-	Expected 0x80 
-	PORTC '0x800028:	0x80
-test/tests.gdb:60: Error in sourced command file:
+“PINA:...“PINA:...“PINA:...“PINA:...“PINA:...test/tests.gdb:60: Error in sourced command file:
 Ambiguous command "Add tests below": .
 Quitting: Remote doesn't know how to detach

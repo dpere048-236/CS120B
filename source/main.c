@@ -33,7 +33,7 @@ int main(void) {
 			cntavail = 3; //cntavail in binary to bbbb 0011
 	} else if(tmpA == 0x09 || tmpA == 0x06 || tmpA == 0x0A || tmpA == 0x03 || tmpA == 0x0C || tmpA == 0x05){
 			cntavail = 2;
-	} else if(tmpA == 0x0E || tmpA == 0x00 || tmpA == 0x00 || tmpA == 0x00 ){
+	} else if(tmpA == 0x0E || tmpA == 0x00 || tmpA == 0x00 || tmpA == 0x07 ){
 			cntavail = 1;
 	} else if(tmpA == 0x0F){
 			cntavail = 128 ;// portc7 =1 if full
